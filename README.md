@@ -269,3 +269,12 @@ Hackathon**.
 The project explores how bounded specialist agents, shared working state
 and considered delegation can turn a messy real-world task into a
 coordinated agentic workflow.
+
+## Reproducible Testing
+
+1. Complete the local setup above and start the application with `adk web`.
+2. Open the ADK web interface and select `jevin_agent`.
+3. Ask Jevin to find rental properties in a location with a specified maximum budget.
+4. For a viable candidate, verify that Jevin searches the property data, stores the candidate in the Green Room, delegates local-area research to Jimothy, retrieves Jimothy's report, and returns a combined assessment.
+5. Repeat with criteria for which no viable property is found and verify that Jevin does not unnecessarily delegate to Jimothy.
+6. For the deployed Cloud Run service, visit `/list-apps` and verify that `jevin_agent` is returned.
