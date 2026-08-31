@@ -1,0 +1,5 @@
+.venv/
+jevin_agent/.env
+jevin_agent/.adk/
+**/__pycache__/
+*.pyc

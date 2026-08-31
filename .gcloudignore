@@ -1,0 +1,7 @@
+.gcloudignore
+.venv/
+jevin_agent/.env
+jevin_agent/.adk/
+jevin_agent/__pycache__/
+**/__pycache__/
+*.pyc
